@@ -1,0 +1,3 @@
+include:
+  - ./price-service/docker-compose-ps.yml
+  - ./price-service-tg-bot/docker-compose-ps-tbot.yml
