@@ -31,8 +31,12 @@ At the `best-price-project-deployment` dir:
 1. `docker compose -f docker-compose-services.yml build`
 2. `docker compose -f docker-compose-services.yml up -d`
 3. Wait 2-3 minutes until the services are fully launched and ready for the next step.
-4. `docker compose -f ./price-service-tg-bot/docker-compose-migrations.yml build`
-5. `docker compose -f ./price-service-tg-bot/docker-compose-migrations.yml up -d`
+4. Just for *the first start*:
+   
+   - `docker compose -f ./price-service-tg-bot/docker-compose-migrations.yml build`
+   
+   - `docker compose -f ./price-service-tg-bot/docker-compose-migrations.yml up -d`
+  
 6. `docker compose -f docker-compose.yml build`
 7. `docker compose -f docker-compose.yml up -d`
 
